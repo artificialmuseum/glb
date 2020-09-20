@@ -1,0 +1,25 @@
+{
+  "name": "glb.thesystem.at",
+  "version": "0.0.1",
+  "description": "glb files for ar.thesystem.at",
+  "scripts": {
+    "dev": "http-server . --port 8001 --cors",
+    "convert": "gltf-pipeline -b -i "
+  },
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thesystemcollective/glb.git"
+  },
+  "keywords": [],
+  "author": "THESYSTEM",
+  "license": "AGPL-3.0",
+  "bugs": {
+    "url": "https://github.com/thesystemcollective/glb/issues"
+  },
+  "homepage": "https://github.com/thesystemcollective/glb#readme",
+  "devDependencies": {
+    "gltf-pipeline": "3.0.0",
+    "http-server": "0.12.3"
+  }
+}
