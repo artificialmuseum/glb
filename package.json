@@ -21,5 +21,15 @@
   "devDependencies": {
     "gltf-pipeline": "3.0.0",
     "http-server": "0.12.3"
-  }
+  },
+  "contributors": [
+    {
+      "name": "jascha ehrenreich",
+      "github": "jaeh"
+    },
+    {
+      "name": "daniela weiss",
+      "github": "mslitto"
+    }
+  ]
 }
