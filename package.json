@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "description": "glb files for ar.thesystem.at",
   "scripts": {
-    "dev": "http-server . --port 8001 --cors",
+    "dev": "http-server ./docs --port 8001 --cors",
     "convert": "gltf-pipeline -b -i "
   },
   "private": true,
