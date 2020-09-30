@@ -19,8 +19,7 @@
   "homepage": "https://github.com/thesystemcollective/glb#readme",
   "devDependencies": {
     "@grundstein/gss": "github:grundstein/gss",
-    "gltf-pipeline": "3.0.0",
-    "http-server": "0.12.3"
+    "gltf-pipeline": "3.0.0"
   },
   "contributors": [
     {
