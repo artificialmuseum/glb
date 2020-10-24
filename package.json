@@ -11,7 +11,7 @@
     "type": "git",
     "url": "git+https://github.com/thesystemcollective/glb.git"
   },
-  "author": "THESYSTEM",
+  "author": "TheSystemCollective",
   "license": "AGPL-3.0",
   "bugs": {
     "url": "https://github.com/thesystemcollective/glb/issues"
@@ -19,6 +19,7 @@
   "homepage": "https://github.com/thesystemcollective/glb#readme",
   "devDependencies": {
     "@grundstein/gss": "github:grundstein/gss",
+    "@thesystemcollective/prepare-static-files": "github:thesystemcollective/prepare-static-files",
     "gltf-pipeline": "3.0.0"
   },
   "contributors": [
