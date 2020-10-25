@@ -20,7 +20,7 @@
   "homepage": "https://github.com/thesystemcollective/glb#readme",
   "devDependencies": {
     "@grundstein/gss": "github:grundstein/gss",
-    "@thesystemcollective/prepare-static-files": "github:thesystemcollective/prepare-static-files",
+    "@grundstein/prepare-static-files": "github:grundstein/prepare-static-files",
     "gltf-pipeline": "3.0.0"
   },
   "contributors": [
