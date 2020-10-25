@@ -4,7 +4,8 @@
   "description": "glb files for ar.thesystem.at",
   "scripts": {
     "dev": "grundstein-server --dir ./docs --port 8001 --cors '*'",
-    "convert": "gltf-pipeline -b -i "
+    "convert": "gltf-pipeline -b -i ",
+    "build": "prepare-static-files --dirs docs"
   },
   "private": true,
   "repository": {
