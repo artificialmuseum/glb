@@ -17,11 +17,15 @@
   "bugs": {
     "url": "https://github.com/thesystemcollective/glb/issues"
   },
+  "type": "module",
   "homepage": "https://github.com/thesystemcollective/glb#readme",
   "devDependencies": {
     "@grundstein/gss": "github:grundstein/gss",
     "@grundstein/prepare-static-files": "github:grundstein/prepare-static-files",
-    "gltf-pipeline": "3.0.0"
+    "@magic/fs": "0.0.9",
+    "@magic/log": "0.1.7",
+    "gltf-pipeline": "3.0.0",
+    "gltf-validator": "2.0.0-dev.3.2"
   },
   "contributors": [
     {
