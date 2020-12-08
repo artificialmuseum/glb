@@ -3,9 +3,9 @@
   "version": "0.0.1",
   "description": "glb files for ar.thesystem.at",
   "scripts": {
-    "dev": "grundstein-server --dir ./docs --port 8001 --cors '*'",
+    "dev": "node_modules/@grundstein/gss/src/bin.mjs --dir ./docs --port 8001 --cors '*'",
     "convert": "gltf-pipeline -b -i ",
-    "build": "prepare-static-files --dirs docs"
+    "build": "node_modules/@grundstein/prepare-static-files/src/bin.mjs --dirs docs"
   },
   "private": true,
   "repository": {
