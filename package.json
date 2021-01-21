@@ -1,7 +1,7 @@
 {
-  "name": "glb.thesystem.at",
+  "name": "glb.artificialmuseum.com",
   "version": "0.0.1",
-  "description": "glb files for ar.thesystem.at",
+  "description": "glb files for ar.artificialmuseum.com",
   "scripts": {
     "start": "npm run dev",
     "dev": "node node_modules/@grundstein/gss/src/bin.mjs --dir ./docs --port 8001 --cors '*'",
@@ -11,22 +11,22 @@
   "private": true,
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/thesystemcollective/glb.git"
+    "url": "git+https://github.com/artificialmuseum/glb.artificialmuseum.com.git"
   },
   "author": "TheSystemCollective",
   "license": "AGPL-3.0",
   "bugs": {
-    "url": "https://github.com/thesystemcollective/glb/issues"
+    "url": "https://github.com/artificialmuseum/glb.artificialmuseum.com/issues"
   },
   "type": "module",
-  "homepage": "https://github.com/thesystemcollective/glb#readme",
+  "homepage": "https://github.com/artificialmuseum/glb.artificialmuseum.com#readme",
   "devDependencies": {
     "@grundstein/gss": "github:grundstein/gss",
     "@grundstein/prepare-static-files": "github:grundstein/prepare-static-files",
-    "@magic/fs": "0.0.9",
-    "@magic/log": "0.1.7",
-    "gltf-pipeline": "3.0.0",
-    "gltf-validator": "2.0.0-dev.3.2"
+    "@magic/fs": "0.0.10",
+    "@magic/log": "0.1.8",
+    "gltf-pipeline": "3.0.2",
+    "gltf-validator": "2.0.0-dev.3.3"
   },
   "contributors": [
     {
