@@ -23,8 +23,8 @@
   "devDependencies": {
     "@grundstein/gss": "github:grundstein/gss",
     "@grundstein/prepare-static-files": "github:grundstein/prepare-static-files",
-    "@magic/fs": "0.0.10",
-    "@magic/log": "0.1.8",
+    "@magic/fs": "0.0.13",
+    "@magic/log": "0.1.9",
     "gltf-pipeline": "3.0.2",
     "gltf-validator": "2.0.0-dev.3.3"
   },
