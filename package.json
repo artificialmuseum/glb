@@ -4,7 +4,7 @@
   "description": "glb files for ar.artificialmuseum.com",
   "scripts": {
     "start": "npm run dev",
-    "dev": "node node_modules/@grundstein/gss/src/bin.mjs --dir ./docs --port 8001 --cors '*'",
+    "dev": "node node_modules/@grundstein/gss/src/bin.mjs --dir ./docs --port 8001 --cors '*' --no-cache",
     "convert": "gltf-pipeline -b -i ",
     "build": "node node_modules/@grundstein/prepare-static-files/src/bin.mjs --dirs docs"
   },
@@ -21,15 +21,15 @@
   "type": "module",
   "homepage": "https://github.com/artificialmuseum/glb.artificialmuseum.com#readme",
   "devDependencies": {
-    "@grundstein/gss": "github:grundstein/gss",
-    "@grundstein/prepare-static-files": "github:grundstein/prepare-static-files",
-    "@magic/cli": "0.0.32",
-    "@magic/error": "0.0.9",
-    "@magic/fs": "0.0.13",
-    "@magic/log": "0.1.9",
-    "@magic/types": "0.1.15",
-    "gltf-pipeline": "3.0.2",
-    "gltf-validator": "2.0.0-dev.3.3"
+    "@grundstein/gss": "0.0.4",
+    "@grundstein/prepare-static-files": "0.0.2",
+    "@magic/cli": "0.0.34",
+    "@magic/error": "0.0.10",
+    "@magic/fs": "0.0.17",
+    "@magic/log": "0.1.10",
+    "@magic/types": "0.1.16",
+    "gltf-pipeline": "3.0.4",
+    "gltf-validator": "2.0.0-dev.3.5"
   },
   "contributors": [
     {
