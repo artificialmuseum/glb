@@ -29,7 +29,8 @@
     "@magic/log": "0.1.10",
     "@magic/types": "0.1.16",
     "gltf-pipeline": "3.0.4",
-    "gltf-validator": "2.0.0-dev.3.5"
+    "gltf-validator": "2.0.0-dev.3.5",
+    "sharp": "0.29.3"
   },
   "contributors": [
     {
