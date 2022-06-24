@@ -21,16 +21,16 @@
   "type": "module",
   "homepage": "https://github.com/artificialmuseum/glb.artificialmuseum.com#readme",
   "devDependencies": {
-    "@grundstein/gss": "0.0.4",
-    "@grundstein/prepare-static-files": "0.0.2",
-    "@magic/cli": "0.0.34",
-    "@magic/error": "0.0.10",
-    "@magic/fs": "0.0.17",
-    "@magic/log": "0.1.10",
-    "@magic/types": "0.1.16",
+    "@grundstein/gss": "0.0.14",
+    "@grundstein/prepare-static-files": "0.0.10",
+    "@magic/cli": "0.0.43",
+    "@magic/error": "0.0.16",
+    "@magic/fs": "0.0.27",
+    "@magic/log": "0.1.17",
+    "@magic/types": "0.1.22",
     "gltf-pipeline": "3.0.4",
-    "gltf-validator": "2.0.0-dev.3.5",
-    "sharp": "0.29.3"
+    "gltf-validator": "2.0.0-dev.3.9",
+    "sharp": "0.30.7"
   },
   "contributors": [
     {
